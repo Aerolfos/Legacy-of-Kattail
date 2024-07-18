@@ -151,3 +151,110 @@ country_event = { #Drop 10 nukes on every state
 		name = "So long..."
 	}
 }
+
+country_event = { #Unresearch techs test
+	id = lok_debug.4
+	hidden = yes
+	title = "Bye"
+	desc = "Bye"
+	is_triggered_only = yes
+
+	immediate = {
+		set_technology = {
+			infantry_weapons = 0
+			infantry_weapons0 = 0
+			tech_support = 0
+			tech_recon = 0
+			tech_mountaineers = 0
+			motorised_infantry = 0
+			gw_artillery = 0
+			interwar_antiair = 0
+			gwtank = 0
+			basic_light_tank = 0
+			improved_light_tank = 0
+			early_fighter = 0
+			naval_bomber0 = 0
+			cv_early_fighter = 0
+			cv_naval_bomber0 = 0
+			early_bomber = 0
+			tactical_bomber0 = 0
+			CAS0 = 0
+			trench_warfare = 0
+			fleet_in_being = 0
+			fuel_silos = 0
+			fuel_refining = 0
+			basic_train = 0
+		
+			early_submarine = 0
+			basic_submarine = 0
+			early_destroyer = 0
+			basic_destroyer = 0
+			early_light_cruiser = 0
+			basic_light_cruiser = 0
+			early_heavy_cruiser = 0
+			basic_heavy_cruiser = 0
+			early_battleship = 0
+			early_battlecruiser = 0
+			basic_battlecruiser = 0
+			early_carrier = 0
+			transport = 0
+		}
+	}
+
+	option = {
+		name = "NAO mein tech"
+	}
+}
+
+#Unresearch repeatable
+country_event = {
+	id = lok_debug.5
+	hidden = yes
+	title = "tech test"
+	desc = "tech test"
+	is_triggered_only = yes
+
+	immediate = {
+		add_ideas = LOK_equipment_modifier
+	}
+
+	option = {
+		name = "So long..."
+	}
+}
+
+#Build anti-icbm everywhere
+country_event = {
+	id = lok_debug.6
+	hidden = yes
+	title = "no icbms allowed"
+	desc = "oh no"
+	is_triggered_only = yes
+
+	immediate = {
+		every_state = {
+			add_building_construction = {
+				type = anti_wmd
+				level = 1
+			}
+		}
+	}
+
+	option = {
+		name = "So long..."
+	}
+}
+
+country_event = {
+	id = lok_debug.7
+	title = ""
+	desc = "debug_7"
+	is_triggered_only = yes
+
+	option = {
+		name = "[?modifier@lok_nuke_radiation_factor]"
+		583 = {
+			add_dynamic_modifier = { modifier = wonder_idea_11_normal }
+		}
+	}
+}

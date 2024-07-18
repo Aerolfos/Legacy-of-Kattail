@@ -1,4 +1,13 @@
 ﻿l_english:
+
+ #New
+ light_mech:0 "Strider Mech"
+ light_mech_desc:0 ""
+ medium_mech:0 "Exosuit Mech"
+ medium_mech_desc:0 ""
+ heavy_mech:0 "Walker Mech"
+ heavy_mech_desc:0 ""
+
  #Tweaked
  light_infantry:0 "Light Leg Infantry"
  light_infantry_desc:0 "Light infantry still relying on walking to get around."
@@ -46,7 +55,7 @@
  mot_anti_tank_brigade:0 "Motorized Anti-Tank"
  anti_tank_brigade_desc:0 ""
  anti_air_brigade:0 "Anti-Air"
- mot_anti_air_brigade:0 "Motorized Anti-Air"
+ mot_anti_air_brigade:0 "Anti-Air"
  anti_air_brigade_desc:0 ""
 
  artillery_brigade_desc:0 ""
