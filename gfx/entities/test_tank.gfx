@@ -1,0 +1,39 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "generic_tank_mammoth_mesh"
+		file = "gfx/models/units/tanks/generic_tank_mammoth.mesh"
+		#file = "gfx/models/units/tanks/serval_tank_test.mesh"
+
+		#meshsettings = {
+		#	name = "bow01Shape"
+		#	index = 0
+		#	texture_diffuse = "navalships_01_Export_Battleship01_diffuse.dds"
+		#	texture_normal = "navalships_01_Export_Battleship01_normal.dds"
+		#	texture_specular = "navalships_01_Export_Battleship01_specular.dds"
+		#	shader = "PdxMeshAdvanced"
+		#}
+
+		#animation = { id = "idle"			type = "generic_tank_medium_idle_animation" }
+		#animation = { id = "move"			type = "generic_tank_medium_moving_animation" }
+		scale = 0.5
+	}
+
+	pdxmesh = {
+		name = "generic_modern_carrier_mesh"
+		file = "gfx/models/units/ships/generic_modern_carrier.mesh"
+
+		#meshsettings = {
+		#	name = "bow01Shape"
+		#	index = 0
+		#	texture_diffuse = "navalships_01_Export_Battleship01_diffuse.dds"
+		#	texture_normal = "navalships_01_Export_Battleship01_normal.dds"
+		#	texture_specular = "navalships_01_Export_Battleship01_specular.dds"
+		#	shader = "PdxMeshAdvanced"
+		#}
+
+		#animation = { id = "idle"			type = "generic_tank_medium_idle_animation" }
+		#animation = { id = "move"			type = "generic_tank_medium_moving_animation" }
+		scale = 1
+	}
+}
